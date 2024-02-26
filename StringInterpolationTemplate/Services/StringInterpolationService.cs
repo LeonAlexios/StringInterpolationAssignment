@@ -74,7 +74,7 @@ public class StringInterpolationService : IStringInterpolationService
         var dateDay = _date.Now.ToString("dddd");
         var answerOne = $"{dateHourMinute,10}";
         var answerTwo = $"{dateDay,10}";
-        Console.WriteLine(answerOne answerTwo);
+        Console.WriteLine($"{answerOne} {answerTwo}");
 
         return answerOne answerTwo;
     }
